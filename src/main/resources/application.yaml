@@ -1,0 +1,5 @@
+http:
+  endpoint: https://reqres.in/
+spring:
+  jackson:
+    property-naming-strategy: SNAKE_CASE
