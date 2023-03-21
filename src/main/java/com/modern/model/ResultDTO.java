@@ -1,4 +1,4 @@
-package com.commonda.model;
+package com.modern.model;
 
 import java.util.List;
 

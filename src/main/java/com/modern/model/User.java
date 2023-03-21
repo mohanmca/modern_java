@@ -1,4 +1,4 @@
-package com.commonda.model;
+package com.modern.model;
 
 public record User(String firstName, String lastName) {
 

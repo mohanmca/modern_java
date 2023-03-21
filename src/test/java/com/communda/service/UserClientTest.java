@@ -1,7 +1,7 @@
-package com.commonda.service;
+package com.modern.service;
 
 
-import com.commonda.model.User;
+import com.modern.model.User;
 import okhttp3.mockwebserver.MockResponse;
 import okhttp3.mockwebserver.MockWebServer;
 import org.junit.jupiter.api.*;

@@ -1,7 +1,7 @@
-package com.commonda;
+package com.modern;
 
-import com.commonda.model.User;
-import com.commonda.service.UserClient;
+import com.modern.model.User;
+import com.modern.service.UserClient;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
