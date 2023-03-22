@@ -7,8 +7,7 @@ enum StateType {
     ODD, EVEN
 }
 
-public class OddEvenConcurrency {
-
+public class OddEvenConcurrencyCondition {
 
     public static void main(String[] args) {
         ReentrantLock lock = new ReentrantLock();
