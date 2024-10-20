@@ -1,0 +1,28 @@
+{
+  "namespace": "com.nikias.avro",
+  "type": "record",
+  "name": "User",
+  "fields": [
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "favorite_number",
+      "type": "int"
+    },
+    {
+      "name": "favorite_color",
+      "type": "string"
+    },
+    {
+      "name": "temperature",
+      "type": {
+        "type": "bytes",
+        "logicalType": "decimal",
+        "precision": 38,
+        "scale": 19
+      }
+    }
+  ]
+}

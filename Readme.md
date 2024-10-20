@@ -24,3 +24,19 @@ chmod a+x run.sh
    2. Update Junit failure  message
    3. Test with wrong url
    4. Answer the question
+
+## Generate more than 38 digit precision number
+
+```avroidl
+Use ".open FILENAME" to reopen on a persistent database.
+D select * from read_parquet("user.parquet");
+┌─────────┬─────────────────┬────────────────┬─────────────────────────┐
+│  name   │ favorite_number │ favorite_color │       temperature       │
+│ varchar │      int32      │    varchar     │     decimal(38,19)      │
+├─────────┼─────────────────┼────────────────┼─────────────────────────┤
+│ John    │              30 │ green          │ 123.4560000000000000000 │
+│ Jane    │              28 │ blue           │   0.0100000000000000000 │
+└─────────┴─────────────────┴────────────────┴─────────────────────────┘
+D select * from read_parquet("user.parquet");
+Invalid Input Error: Invalid decimal encoding in Parquet file
+```
